@@ -1,6 +1,6 @@
 import styles from './Layout.module.css'
 import Link from 'next/link'
-export default function layout({children}) {
+export default function Layout({children}) {
   return (
     <>
     <header className={styles.header}>
