@@ -1,9 +1,11 @@
 import carsData from '../../data/carsData'
 import CarsPage from '../../components/templates/CarsPage'
+import Categories from '../../components/modules/Categories'
 export default function index() {
   return (
     <div>
-        <CarsPage data={carsData} />
+      <Categories />
+      <CarsPage data={carsData} />
     </div>
   )
 }
