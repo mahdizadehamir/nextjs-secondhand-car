@@ -10,7 +10,7 @@ export default function Card(props) {
         <h4 className={styles.title}>{`${name} ${model}`}</h4>
         <p className={styles.detail}>{`${year} , ${distance}km`}</p>
         <div className={styles.footer}>
-          <p>$ {price}</p>
+          <p className={styles.price}>$ {price}</p>
           <div className={styles.location}>
             <p>{location}</p>
             <Location />
